@@ -20,7 +20,7 @@ const WhoToFollowListItem = ({
               <br/>
               @{who.handle}
             </div>
-            <div className={'cowl-4 pe-0'}>
+            <div className={'col-4 pe-0'}>
               <button className={'btn btn-primary tweet-button float-right'}>Follow
               </button>
             </div>
