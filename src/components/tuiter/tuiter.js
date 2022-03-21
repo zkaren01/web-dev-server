@@ -8,28 +8,9 @@ import ExploreScreen from "./explore/ExploreScreen";
 
 const Tuiter = () => {
   return(
-      <>
+      <div>
         <ExploreScreen/>
-        {/*<NavigationSidebar active="home"/>*/}
-        {/*<ExploreComponent/>*/}
-        {/*<PostSummaryList/>*/}
-        {/*<PostSummaryItem post={{*/}
-        {/*  "topic": "Web Development",*/}
-        {/*  "userName": "",*/}
-        {/*  "title": "jQuery",*/}
-        {/*  "time": "last week",*/}
-        {/*  "image": "./images/jquery.jpg",*/}
-        {/*  "tweets": "122K"*/}
-        {/*}}/>*/}
-        {/*<WhoToFollowList/>*/}
-        {/*<h1>Tuiter</h1>*/}
-        {/*<Link to="/hello">*/}
-        {/*  Hello*/}
-        {/*</Link> |*/}
-        {/*<Link to="/labs">*/}
-        {/*  Labs*/}
-        {/*</Link>*/}
-      </>
+      </div>
 )
 };
 export default Tuiter;
