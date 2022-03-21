@@ -37,7 +37,7 @@ const ExploreComponent = () => {
         </div>
 
         <div className="card small-margin">
-          <img src="./images/SpaceX_starship.jpeg" className="card-img-top"/>
+          <img src="/Tuiter/images/SpaceX_starship.jpeg" className="card-img-top"/>
             <div
                 className="card-img-overlay d-flex flex-column justify-content-end">
               <h1 className="white-color"> SpaceX's Starship</h1>

@@ -13,6 +13,7 @@ function App() {
       <BrowserRouter>
         <div className="container">
           <Routes>
+            <Route path={"/"} exact={true} element={<HelloWorld/>}/>
             <Route path={"/hello"} exact={true} element={<HelloWorld/>}/>
             <Route path={"/labs"} exact={true} element={<Index/>}/>
             <Route path={"/tuiter"} exact={true} element={<Tuiter/>}/>

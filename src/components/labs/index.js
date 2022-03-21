@@ -13,6 +13,12 @@ const Index = () => {
         <ConditionalOutput/>
         <Styles/>
         <Classes/>
+        <Link to="/hello">
+          Hello
+        </Link> |
+        <Link to="/tuiter">
+          Tuiter
+        </Link>
       </>
 )
 };

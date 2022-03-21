@@ -6,6 +6,8 @@ const Tuiter = () => {
   return (
       <div>
         <ExploreScreen/>
+        <Link to="/labs">  Labs </Link> |
+        <Link to="/hello"> Hello </Link>
       </div>
   )
 };
