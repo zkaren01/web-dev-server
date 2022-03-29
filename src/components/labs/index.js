@@ -10,11 +10,11 @@ const Index = () => {
   return(
       <>
         <h1>Labs</h1>
+        <ReduxExamples/>
         <ToDoList/>
         <ConditionalOutput/>
         <Styles/>
         <Classes/>
-        <ReduxExamples/>
         <Link to="/hello">
           Hello
         </Link> |

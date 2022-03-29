@@ -3,12 +3,12 @@ import HelloReduxExampleComponent
   from "./hello-redux-example-component";
 import hello from "./reducers/hello";
 import todos from "./reducers/todos-reducer";
-import {createStore, combineReducers} from "redux";
 import {Provider} from "react-redux";
+import {createStore, combineReducers} from "redux";
 import Todos from "./todos-component";
 const reducers = combineReducers({hello, todos})
 
-const store = createStore(hello);
+const store = createStore(reducers);
 
 const ReduxExamples = () => {
   return(
